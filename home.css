@@ -179,7 +179,8 @@
     font-family: 'Footlight MT Light';
     color: black;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 21px;
+    
   }
 
 
@@ -254,6 +255,7 @@
   font-family: 'Footlight MT Light';
   color: black;
   font-size: 25px;
+  padding-top: 50px;
   
 }
 
