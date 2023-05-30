@@ -21,7 +21,7 @@ body{
 }
 
 .l-name{
-  margin-right: 590px;
+  margin-right: 570px;
 }
 
 .logo-name{
@@ -68,6 +68,8 @@ main{
   
   height: auto;
 }
+
+
 .invest{
   color:white;
   background-image: linear-gradient(rgba(26, 10, 10, 0.007),rgba(19, 11, 11, 0.7)),url(./img/Investo.jpg);
@@ -77,22 +79,27 @@ main{
 }
 invest p{
   margin-left: 25%;
+
 }
 
 main h2{
   margin-top: 300px;
   margin-left: 100px;
   font-family: 'Copperplate Gothic Light';
+  font-size: 35px;
 }
 
 #projekte{
-  margin-left: 40%;
+  display: flex;
   margin-top: 20px;
   align-items: center;
+  justify-content: center;
 }
+
 .projekteperinvestim{
   margin-top: 30px;
   display: flex;
+  margin-left: 30px;
 
 }
 .projekteperinvestim p{
@@ -105,24 +112,30 @@ main h2{
   
   
 }
+
 .projekteperinvestim button{
-  width: 100px;
+  width: 200px;
   height: 60px;
-  font-size: large;
+  font-size: 23px;
+  font-weight: bold;
   color: white;
   font-family: 'Footlight MT Light';
   margin: 40px;
   background-color:#02085f;
   margin-left: 15%;
+  border-radius: 20px;
+  
 }
+
 .projekteperinvestim img{
 
   justify-content: space-between;
   display: table-column;
   margin-bottom: 70px;
   height: 300px;
-  width: 500px;
-  margin-left: 80%;
+  width: 550px;
+  margin-left: 250px;
+  border-radius: 10px;
 }
 .footer{
 height: 350px;
@@ -140,6 +153,7 @@ margin-top: 50px;
 font-family: 'Footlight MT Light';
 color: black;
 font-size: 25px;
+padding-top: 50px;
 
 }
 
