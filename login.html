@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="login.css">
+  <title>Login Form</title>
+  <script>
+    function validateForm() {
+      var username = document.getElementById("username").value;
+      var password = document.getElementById("password").value;
+      
+      if (username === "" || password === "") {
+        alert("Please fill in all fields.");
+        return false;
+      }
+      
+      
+      return true;
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="limitlessjobs">
+      <img src="image.png" id="logoja">
+      <div class="logo">Limitless Jobs</div>
+      </div>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="aboutUs.html">About Us</a></li>
+        <li><a href="Contact.html">Contact Us</a></li>
+        <li><a href="FindJobs.html">Find Jobs</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+  <div  class="korniza">
+    <div class="fotoja">
+      <img src="img/user.jpg">
+
+    </div>
+  <div class="container">
+    <p>Log into your Account!</p>
+    <form action="" method="post">
+      <label for="username">USERNAME:</label>
+      <br>
+      <input type="text" id="username" name="username" required>
+      <br>
+
+      <label for="password">PASSWORD:</label>
+      <br>
+      <input type="password" id="password" name="password" required>
+<br>
+      <input type="submit" value="LOG IN" id="butoni" onclick="validateForm()">
+    </form>
+  </div>
+  </div>
+  </main>
+</body>
+</html>
