@@ -103,6 +103,7 @@ main h2{
   font-family: 'Footlight MT Light';
   margin-left: 10%;
   
+  
 }
 .projekteperinvestim button{
   width: 100px;
@@ -118,7 +119,7 @@ main h2{
 
   justify-content: space-between;
   display: table-column;
-  margin-bottom: 30px;
+  margin-bottom: 70px;
   height: 300px;
   width: 500px;
   margin-left: 80%;
