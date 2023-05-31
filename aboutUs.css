@@ -21,7 +21,7 @@ body{
 }
 
 .l-name{
-  margin-right: 730px;
+  margin-right: 590px;
 }
 
 .logo-name{
@@ -166,7 +166,7 @@ body{
   .punekerkuesit{
     padding-top: 60px;
     display: flex;
-    font-size: 30px;
+    font-size: 28px;
     justify-content: space-around;
   }
 
@@ -184,7 +184,7 @@ body{
   .punedhenesit{
     padding-top: 100px;
     display: flex;
-    font-size: 30px;
+    font-size: 28px;
     justify-content: space-around;
   }
   .punedhenesit p{
